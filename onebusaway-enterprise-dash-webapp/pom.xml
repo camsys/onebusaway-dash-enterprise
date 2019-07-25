@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>onebusaway-wmata-enterprise</artifactId>
+    <artifactId>onebusaway-dash-enterprise</artifactId>
     <groupId>org.onebusaway</groupId>
     <version>2.0.23-cs-SNAPSHOT</version>
   </parent>
-  <artifactId>onebusaway-enterprise-wmata-webapp</artifactId>
+  <artifactId>onebusaway-enterprise-dash-webapp</artifactId>
   <packaging>war</packaging>
   
-  <name>onebusaway-enterprise-wmata-webapp</name>
+  <name>onebusaway-enterprise-dash-webapp</name>
   
   
   	<properties>
@@ -185,7 +185,7 @@
 		</profile>
 	</profiles>
   <build>
-    <finalName>onebusaway-enterprise-wmata-webapp</finalName>
+    <finalName>onebusaway-enterprise-dash-webapp</finalName>
     <plugins>
 		<plugin>
 			<groupId>pl.project13.maven</groupId>

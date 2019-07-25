@@ -6,10 +6,10 @@
 	<groupId>org.onebusaway</groupId>
 	<version>2.0.23-cs-SNAPSHOT</version>
   </parent>
-  <artifactId>onebusaway-wmata-enterprise</artifactId>
+  <artifactId>onebusaway-dash-enterprise</artifactId>
   <packaging>pom</packaging>
   <version>2.0.23-cs-SNAPSHOT</version>
-  <name>onebusaway-wmata-enterprise</name>
+  <name>onebusaway-dash-enterprise</name>
     <repositories>
     <repository>
       <id>releases-obaweb-repo</id>
@@ -42,7 +42,7 @@
   </distributionManagement>
   
 	<modules>
-	  <module>onebusaway-enterprise-wmata-webapp</module>
+	  <module>onebusaway-enterprise-dash-webapp</module>
 	</modules>
 </project>
 
