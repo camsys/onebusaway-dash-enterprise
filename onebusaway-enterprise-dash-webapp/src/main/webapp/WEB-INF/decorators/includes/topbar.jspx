@@ -6,18 +6,11 @@
 	
 	 <!-- WMATA Name -->
 	<div id="topbar-top">
-		<div class="logo">
-        	<a href="http://www.dashbus.com">
-        		<s:url var="url" value="/css/img/agency_logo.png">
-					<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-				</s:url>
-        		<img src="${url}" alt="Metro logo"></img>
-       		 </a>
-    	</div>
+
     
-		<div class="wmata-name wmata-font">
-			Washington Metropolitan Area Transit Authority
-		</div>
+		<!--<div class="wmata-name wmata-font">-->
+			<!--Washington Metropolitan Area Transit Authority-->
+		<!--</div>-->
 	</div>
 	
 	<div id="topbar-bottom">
@@ -25,22 +18,37 @@
 	   
 	    <nav class="wmata-font">
 	      <ul>
-	      	<s:set var="link" value="getText('main.service.link')" />
-	        <li><a href="${link}">Service</a></li>
+			<li>
+			  <a href="/">
+				  <s:url var="url" value="/css/img/home_icon.png"><s:param name="v"><s:property value="frontEndVersion" /></s:param></s:url>
+				  <img  class="home-icon" src="${url}" alt="Home"></img>
+			  </a>
+			</li>
+	      	<s:set var="link" value="getText('main.alerts.link')" />
+	        <li><a href="${link}">ALERTS</a></li>
+			  <s:set var="link" value="getText('main.fares.link')" />
+			  <li><a href="${link}">FARES</a></li>
 	        <s:set var="link" value="getText('main.schedules.link')" />
-	        <li><a href="${link}">Schedules &amp; Maps</a></li>
-	        <s:set var="link" value="getText('main.riderguide.link')" />
-	        <li><a href="${link}">Rider Guide</a></li>
-	        <s:set var="link" value="getText('main.fares.link')" />
-	        <li><a href="${link}">Fares</a></li>
-	        <s:set var="link" value="getText('main.initiatives.link')" />
-	        <li><a href="${link}">Initiatives</a></li>
-	        <s:set var="link" value="getText('main.about.link')" />
-	        <li><a href="${link}">About</a></li>
+	        <li><a href="${link}">SCHEDULES &amp; MAPS</a></li>
+	        <s:set var="link" value="getText('main.contact.link')" />
+	        <li><a href="${link}">CONTACT US</a></li>
+	        <!--<s:set var="link" value="getText('main.initiatives.link')" />-->
+	        <!--<li><a href="${link}">Initiatives</a></li>-->
+	        <!--<s:set var="link" value="getText('main.about.link')" />-->
+	        <!--<li><a href="${link}">About</a></li>-->
 	      </ul>    
 	     </nav>
 			
-		</div> 
+		</div>
+
+		<div class="right-logo">
+			<a href="http://www.dashbus.com">
+				<s:url var="url" value="/css/img/agency_logo_dash.png">
+					<s:param name="v"><s:property value="frontEndVersion" /></s:param>
+				</s:url>
+				<img src="${url}" alt="Metro logo"></img>
+			</a>
+		</div>
 	</div>
 	
   </div>	

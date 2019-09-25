@@ -21,20 +21,20 @@
 }
 
 #topbar-top {
-	height: 45px;
+	height: 5px;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background: #3E3E3E none repeat scroll 0% 0%;
+	background: #fbe275;
 	z-index: 1;
 }
 
 #topbar-bottom {
-	height: 88px;
+	height: 128px;
 	position: absolute;
-	top: 45px;
+	top: 5px;
 	width: 100%;
-	background: #4679B0 none repeat scroll 0% 0%;
+	background: #0054a4 none repeat scroll 0% 0%;
 }
 
 .wmata-font {
@@ -52,9 +52,9 @@
 }
 
 div.logo {
-	max-width: 80px;
-	top: 10px;
-	left: 0px;
+	max-width: 360px;
+	margin: auto;
+	margin-top: 28px;
 }
 
 div.logo img {
@@ -62,6 +62,5 @@ div.logo img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin: auto;
 }

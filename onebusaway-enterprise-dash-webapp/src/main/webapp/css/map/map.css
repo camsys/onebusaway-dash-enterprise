@@ -18,7 +18,7 @@
 
 #content #searchbar {
 	float: left;
-	width: 330px;
+	width: 360px;
 	overflow-y: auto;
 	font-size: 14px;
 	position: relative;
@@ -31,14 +31,15 @@
 #content #searchbar form {
 	position: relative;
 	display: block;
-	width: 302px;
+	width: 334px;
 	background-image: url('img/search_background.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #content #searchbar form input {
 	width: 252px;
-	height: 25px;
+	height: 36px;
 	font-weight: bold;
 	font-family: inherit;
 	font-size: 120%;	

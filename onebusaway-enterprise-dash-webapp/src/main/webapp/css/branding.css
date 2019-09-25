@@ -67,8 +67,9 @@
 	width: 302px;
 	height: 58px;
 	display: block;
-	background-image: url('img/onebusaway-wmata.png');
+	background-image: url('img/onebusaway-dash.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 	text-indent: -9999px;
 }
 
@@ -123,23 +124,24 @@
 #bustime #map_header {
 	width: 302px;
 	height: 105px;
-	padding-top: 10px;
+	padding-top: 30px;
 	display: block;
 }
 
 #bustime #map_header .title h1 a {
-	width: 302px;
-	height: 58px;
+	width: 334px;
+	height: 57px;
 	display: block;
-	background-image: url('img/onebusaway-wmata.png');
+	background-image: url('img/onebusaway-dash.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 	text-indent: -9999px;
 }
 
 #bustime #map_header ul {
 	position: relative;
 	margin-top: 10px;
-	width: 302px;
+	width: 350px;
 }
 
 #bustime #map_header ul li {
@@ -154,7 +156,8 @@
 
 #bustime #map_header ul li a {
 	text-decoration: none;
-   	background-color: #3399C9;
+   	background-color: #0054a4;
+   	background-color: #0054a4;
     color: #FFFFFF;
     display: block;
     font-weight: bold;
@@ -165,7 +168,7 @@
     text-align: center;
 }
 #bustime #map_header ul #link_mobile {
-	width: 84px;
+	width: 104px;
 }
 #bustime #map_header ul #link_about {
 	width: 46px;
@@ -174,10 +177,13 @@
 	width: 55px;
 }
 #bustime #map_header ul #link_developers {
+	width: 95px;
+}
+#bustime #map_header ul #link_features {
 	width: 75px;
 }
 #bustime #map_header ul #link_help {
-	width: 37px;
+	width: 57px;
 }
 #bustime #map_header ul li a:hover {
     background-color: #94CB45;
@@ -239,22 +245,39 @@ html, body {
 }
 
 #topbar {
-	height: 133px;
+	height: 88px;
+	width: 100vw;
+	margin-left: -75px;
 }
 
 div.logo {
 	max-width: 80px;
 	top: 10px;
 	left: 0px;
+	padding-right: 10px;
+	/* background: #0054a4; */
+	margin-top: 5px;
 }
+div.right-logo {
+	max-width: 80px;
+	display: inline-block;
+	margin-top: 5px;
+	float: right;
+	padding-right: 95px;
+}
+
 
 #topbar img {
 	vertical-align: middle;
-	display: block;
+	display: inline-block;
 	max-width: 100%;
 	height: auto;
-	margin-top: 10px;
-	margin-left: 10px;
+	/*margin-top: 10px;*/
+	/*margin-left: 10px;*/
+}
+
+.home-icon {
+	width: 48px;
 }
 
 .wmata-name {
@@ -265,15 +288,18 @@ div.logo {
 }
 
 .wmata-menu {
-	float: right;
-	height: 100px;
+	/*float: right;*/
+	/*height: 100px;*/
 	line-height: 88px;
+	margin-left: 75px;
+	padding-right: 75px;
 }
 
 .wmata-menu nav li {
-	display: block;
+	display: inline-block;
 	float: left;
-	max-height: 88px
+	height: 88px;
+	/*max-height: 88px;*/
 }
 
 .wmata-menu nav li:hover {
@@ -285,25 +311,26 @@ div.logo {
 	padding: 0px 23px;
 	vertical-align: middle;
 	text-decoration: none;
-	font-weight: 300;
+	font-weight: bold;
 	color: #FFF;
 }
 
 #topbar-top {
-	height: 45px;
+	height: 5px;
 	position: absolute;
 	top: 0;
-	width: 100%;
-	background: #3E3E3E none repeat scroll 0% 0%;
+	width: 100vw;
+	background: linear-gradient(to right, #4ab9cf 0%,#4ab9cf 50%,#4ab9cf 50%,#fbe275 50%,#fbe275 100%);
 	z-index: 1;
 }
 
 #topbar-bottom {
 	height: 88px;
 	position: absolute;
-	top: 45px;
-	width: 100%;
-	background: #4679B0 none repeat scroll 0% 0%;
+	top: 5px;
+	width: 100vw;
+	background: #0054a4 none repeat scroll 0% 0%;
+	min-width: 1080px;
 }
 
 .wmata-font {
@@ -314,5 +341,5 @@ div.logo {
 }
 
 #map {
-	margin: 10px;
+	margin-top: 5px;
 }

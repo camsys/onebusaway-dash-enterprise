@@ -112,23 +112,20 @@
 		      			<s:url var="url" value="/"></s:url>
 			  			<h1><a href="${url}"><s:property value="getText('main.title')" /></a></h1>
 		  	  		</div>
-	
-		      	  	<ul>
+
+					<ul>
 						<s:url var="url" namespace="/m" action="index"/>
-						<li><a href="${url}">Text / Mobile</a></li>
-		    	  	
-						<s:url var="url" namespace="/wiki" action="About"/>
-						<li><a href="${url}">About</a></li>
-		
-						<s:url var="url" namespace="/wiki" action="ContactUs"/>
-						<li><a href="${url}">Contact</a></li>
-		 				    
-		 				<s:url var="url" namespace="/wiki/Developers" action="Index"/>
-		 				<li><a href="${url}">Developers</a></li>
-		 			
-			 			<s:url var="url" namespace="/wiki/Help" action="Index"/>
-			 			<li><a href="${url}">Help</a></li>
-				    </ul>
+						<li id="link_mobile" aria-label="Text only version"><a href="${url}">TEXT / MOBILE</a></li>
+
+						<s:url var="url" namespace="/wiki/Main" action="Tools"/>
+						<li id="link_features"><a href="${url}">FEATURES</a></li>
+
+						<s:url var="url" namespace="/wiki/Developers" action="Index"/>
+						<li id="link_developers"><a href="${url}">DEVELOPERS</a></li>
+
+						<s:url var="url" namespace="/wiki/Main" action="FrequentlyAskedQuestions"/>
+						<li id="link_help"><a href="${url}">FAQ</a></li>
+					</ul>
 				</div>  		
 	  		
 				<decorator:body />

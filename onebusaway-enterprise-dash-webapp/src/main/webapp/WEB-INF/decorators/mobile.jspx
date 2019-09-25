@@ -62,17 +62,19 @@
 	<div id="topbar">
 		 <!-- WMATA Name -->
 		<div id="topbar-top">
-			<div class="logo">
-				<a href="http://www.dashbus.com"> <s:url var="url"
-						value="../css/img/agency_logo.png"></s:url> <img src="${url}"
-					alt="Metro logo"></img>
-				</a>
-			</div>
 
-			<div class="wmata-name wmata-font">DASH</div>
+
+			<!--<div class="wmata-name wmata-font">DASH</div>-->
 		</div>
 
-		<div id="topbar-bottom"><!-- prevent jspx minimization --></div>
+		<div id="topbar-bottom"><!-- prevent jspx minimization -->
+			<div class="logo">
+				<a href="http://www.dashbus.com">
+					<s:url var="url" value="../css/img/onebusaway-dash-white.png"></s:url>
+					<img src="${url}" alt="Metro logo"></img>
+				</a>
+			</div>
+		</div>
 
 	</div>
 
