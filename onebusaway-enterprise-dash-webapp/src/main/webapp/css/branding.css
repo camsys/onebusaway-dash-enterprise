@@ -64,8 +64,8 @@
 }
 
 #bustime #header .title h1 a {
-	width: 302px;
-	height: 58px;
+	width: 350px;
+    height: 42px;
 	display: block;
 	background-image: url('img/onebusaway-dash.png');
 	background-repeat: no-repeat;
@@ -74,9 +74,10 @@
 }
 
 #bustime #header ul {
-	position: absolute;
+	/* position: absolute;
 	left: 330px;
-	bottom: 25px;
+	bottom: 25px; */
+	display: block;
 }
 
 #bustime #header ul li {
@@ -317,6 +318,7 @@ div.right-logo {
 
 #topbar-top {
 	height: 5px;
+	min-width: 1080px;
 	position: absolute;
 	top: 0;
 	width: 100vw;

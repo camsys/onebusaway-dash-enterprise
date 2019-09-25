@@ -107,7 +107,7 @@
 
   		<div id="bustime">
   			<div class="holding_box">
-				<div id="header">
+				<!-- <div id="header">
 	    	  		<div class="title">
 		      			<s:url var="url" value="/"></s:url>
 			  			<h1><a href="${url}"><s:property value="getText('main.title')" /></a></h1>
@@ -126,7 +126,7 @@
 						<s:url var="url" namespace="/wiki/FrequentlyAskedQuestions" action="Index"/>
 						<li id="link_help"><a href="${url}">FAQ</a></li>
 					</ul>
-				</div>  		
+				</div>  		 -->
 	  		
 				<decorator:body />
 			</div>
