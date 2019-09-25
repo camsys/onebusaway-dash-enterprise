@@ -268,7 +268,7 @@ div.right-logo {
 
 
 #topbar img {
-	vertical-align: middle;
+	vertical-align: text-bottom;
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
@@ -277,7 +277,7 @@ div.right-logo {
 }
 
 .home-icon {
-	width: 48px;
+	width: 40px;
 }
 
 .wmata-name {

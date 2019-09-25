@@ -53,8 +53,9 @@
 
 div.logo {
 	max-width: 360px;
+	min-width: 250px;
 	margin: auto;
-	margin-top: 28px;
+	margin-top: 43px;
 }
 
 div.logo img {
