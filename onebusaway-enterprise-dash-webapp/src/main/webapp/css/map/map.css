@@ -38,14 +38,14 @@
 }
 
 #content #searchbar form input {
-	width: 252px;
+	width: 280px;
 	height: 36px;
 	font-weight: bold;
 	font-family: inherit;
 	font-size: 120%;	
 	border: 0;
 	background-color: transparent;
-	margin-top: 6px;
+	margin-top: 1px;
 	margin-left: 8px;
 }
 
