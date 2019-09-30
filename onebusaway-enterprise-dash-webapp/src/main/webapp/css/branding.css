@@ -106,9 +106,11 @@
 }
 #bustime #header ul #link_about {
 	width: 46px;
+	display: none;
 }
 #bustime #header ul #link_contact {
 	width: 55px;
+	display: none;
 }
 #bustime #header ul #link_developers {
 	width: 75px;
@@ -173,9 +175,13 @@
 }
 #bustime #map_header ul #link_about {
 	width: 46px;
+	display: none;
 }
 #bustime #map_header ul #link_contact {
-	width: 55px;
+	width: 75px;
+}
+#bustime #map_header ul #link_contact a {
+	content: "Features";
 }
 #bustime #map_header ul #link_developers {
 	width: 95px;

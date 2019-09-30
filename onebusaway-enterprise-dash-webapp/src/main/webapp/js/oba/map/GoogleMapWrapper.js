@@ -156,3 +156,14 @@ OBA.GoogleMapWrapper = function(mapNode) {
 	// RETURN OBJECT BACK TO CALLER
 	return map;
 };
+
+$("document").ready(function() {
+	/* Temporary */
+    var contact = $('#link_contact a');
+    var help = $('#link_help a');
+    contact.html("Features");
+    contact.attr("href", "/dash/wiki/Features");
+    help.html("FAQ");
+    help.attr("href", "/dash/wiki/FrequentlyAskedQuestions");
+
+});
