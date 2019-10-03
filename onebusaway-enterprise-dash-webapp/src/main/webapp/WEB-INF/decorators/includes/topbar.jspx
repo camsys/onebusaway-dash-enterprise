@@ -19,7 +19,8 @@
 	    <nav class="wmata-font">
 	      <ul>
 			<li>
-			  <a href="/dash/">
+			  <s:set var="link" value="getText('main.agency.link')" />
+			  <a href="${link}">
 				  <s:url var="url" value="/css/img/home_icon.png"><s:param name="v"><s:property value="frontEndVersion" /></s:param></s:url>
 				  <img  class="home-icon" src="${url}" alt="Home"></img>
 			  </a>
@@ -42,7 +43,8 @@
 		</div>
 
 		<div class="right-logo">
-			<a href="http://www.dashbus.com">
+			<s:set var="link" value="getText('main.agency.link')" />
+			<a href="${link}">
 				<s:url var="url" value="/css/img/agency_logo_dash.png">
 					<s:param name="v"><s:property value="frontEndVersion" /></s:param>
 				</s:url>
