@@ -160,10 +160,12 @@ OBA.GoogleMapWrapper = function(mapNode) {
 $("document").ready(function() {
 	/* Temporary */
     var contact = $('#link_contact a');
-    var help = $('#link_help a');
+	var help = $('#link_help a');
+	var dev = $('link_developers a');
     contact.html("Features");
-    contact.attr("href", "/dash/wiki/Features");
+    contact.attr("href", "/wiki/Features/Index");
     help.html("FAQ");
-    help.attr("href", "/dash/wiki/FrequentlyAskedQuestions");
+	help.attr("href", "/wiki/FrequentlyAskedQuestions/Index");
+	dev.attr("href", "/wiki/Developers/Index");
 
 });
