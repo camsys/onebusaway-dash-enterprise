@@ -82,13 +82,13 @@
 	
 	<div id="footer">
     	<p>
-			<s:url var="mobileHelpUrl" namespace="../m/wiki" action="Help/Index"/>	
+			<s:url var="mobileHelpUrl" namespace="../../m/wiki" action="Help/Index"/>
     		<a href="${mobileHelpUrl}">Help</a> | 
     		
     		<s:url var="desktopUrl" namespace="/" action="index"/>	
     		<a href="${desktopUrl}">Desktop Site</a> |
     		
-    		<s:url var="contactUrl" namespace="../m/wiki" action="ContactUs"/>	
+    		<s:url var="contactUrl" namespace="../../m/wiki" action="ContactUs"/>	
     		<a href="${contactUrl}">Contact</a> |
 
 			<s:set var="link" value="getText('main.agency.link')" />
