@@ -19,3 +19,15 @@ var OBA = window.OBA || {};
 OBA.Wizard = function(routeMap) {	
 	
 };
+
+// add hover to route list links
+$(document).ready(function() {
+    $('p.name > a').hover(
+        function() {
+            var parentTag = $(this).parent().css('border-bottom-color');
+            $(this).css('color', parentTag);
+        }, function() {
+            $(this).css('color', '#000');
+        }
+    );
+});

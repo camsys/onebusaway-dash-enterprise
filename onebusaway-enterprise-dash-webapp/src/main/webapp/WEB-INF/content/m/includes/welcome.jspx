@@ -4,6 +4,8 @@
 	xmlns:wiki="/oba-wiki-tags" 
 	class="welcome">
 	
-	<!-- Prevent jspx minimization -->
-	
+	<!-- show route list by default not as a link -->
+	<jsp:include page="route-list.jspx" >
+		<jsp:param name="agencyFilter" value="71" />
+	</jsp:include>
 </div>

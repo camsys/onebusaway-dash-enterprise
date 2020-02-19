@@ -351,3 +351,35 @@ div.right-logo {
 #map {
 	margin-top: 5px;
 }
+
+/*
+include routes.css as route is on left nav by default
+ */
+
+ul.routeList li {
+	width: 90%;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 5px 10px 10px 10px;
+	color: #000;
+}
+#routes {
+	font-size: 16px;
+}
+#routes .routeList .description {
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: normal;
+}
+#routes .routeList .name {
+	margin-bottom: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+}
+#routes .routeList .name a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
