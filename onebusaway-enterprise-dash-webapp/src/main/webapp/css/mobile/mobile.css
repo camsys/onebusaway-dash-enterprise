@@ -311,10 +311,15 @@ small {
 	padding-top: 0.5em;
 }
 
+.direction-li {
+	margin-bottom: 1.2em;
+}
+
 .direction-link {
 	font-weight: bold;
+	font-size: 1.25em;
 	line-height: 1.1em;
-	margin-left: 0.4em;
+	/*margin-left: 0.4em;*/
 }
 
 .direction-jump {
@@ -338,6 +343,7 @@ small {
 }
 
 .directionAtStop {
+	font-size: 1.25em;
 	margin-bottom: .5em;
 	margin-left: 0.3em;
 }
@@ -352,6 +358,7 @@ small {
 
 .stopResultGroupHeader {
 	font-weight: bold;
+	font-size: 1.25em;
 	color: rgb(129,129,129);
 	margin-left: 0.3em;
 }
