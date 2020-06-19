@@ -82,6 +82,10 @@
 	
 	<div id="footer">
     	<p>
+
+			<s:url var="revertUrl" namespace="http://tracker.dashbus.com" action="index"/>
+			<a href="${revertUrl}">Revert to Classic Tracker</a> |
+
 			<s:url var="mobileHelpUrl" namespace="../../m/wiki" action="Help/Index"/>
     		<a href="${mobileHelpUrl}">Help</a> | 
     		
@@ -92,7 +96,7 @@
     		<a href="${contactUrl}">Contact</a> |
 
 			<s:set var="link" value="getText('main.agency.link')" />
-			<a href="${link}"><s:property value="getText('mobile.agency.name')" /></a>
+			<a href="${link}"><s:property value="getText('mobile.agency.name')" /> Home</a>
 		</p>
 	</div>
 
