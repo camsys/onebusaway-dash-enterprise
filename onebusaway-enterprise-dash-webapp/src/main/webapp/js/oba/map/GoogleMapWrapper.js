@@ -159,12 +159,14 @@ OBA.GoogleMapWrapper = function(mapNode) {
 
 $("document").ready(function() {
 	/* Temporary */
+	var map_header_link = $('#map_header_link a');
     var contact = $('#link_contact a');
 	var help = $('#link_help a');
 	var dev = $('#link_developers a');
+	map_header_link.attr("href", "http://tracker.dashbus.com")
+    map_header_link.html("Revert to Classic Tracker")
     contact.html("Features");
     contact.attr("href", "/wiki/Features/Index");
-    help.html("FAQ");
 	help.attr("href", "/wiki/FrequentlyAskedQuestions/Index");
 	dev.attr("href", "/wiki/Developers/Index");
 
