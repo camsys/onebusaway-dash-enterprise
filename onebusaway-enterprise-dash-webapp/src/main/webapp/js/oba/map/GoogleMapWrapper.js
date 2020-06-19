@@ -164,7 +164,6 @@ $("document").ready(function() {
 	var dev = $('#link_developers a');
     contact.html("Features");
     contact.attr("href", "/wiki/Features/Index");
-    help.html("FAQ");
 	help.attr("href", "/wiki/FrequentlyAskedQuestions/Index");
 	dev.attr("href", "/wiki/Developers/Index");
 
