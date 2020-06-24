@@ -85,13 +85,16 @@
 
 			<a href="http://tracker.dashbus.com">Revert to Classic Tracker</a> |
 
-			<s:url var="mobileHelpUrl" namespace="../../m/wiki" action="Help/Index"/>
-    		<a href="${mobileHelpUrl}">Help</a> | 
-    		
-    		<s:url var="desktopUrl" namespace="/" action="index"/>	
+			<s:url var="mobileHelpUrl" namespace="/" action="wiki/DASHFAQ/Index"/>
+    		<a href="${mobileHelpUrl}">Help</a> |
+
+			<s:url var="developersUrl" namespace="/" action="wiki/DASHDevelopers/Index"/>
+			<a href="${developersUrl}">Developers</a> |
+
+    		<s:url var="desktopUrl" namespace="/" action="index"/>
     		<a href="${desktopUrl}">Desktop Site</a> |
     		
-    		<s:url var="contactUrl" namespace="../../m/wiki" action="ContactUs"/>	
+    		<s:url var="contactUrl" value="getText('main.contact.link')"/>
     		<a href="${contactUrl}">Contact</a> |
 
 			<s:set var="link" value="getText('main.agency.link')" />
