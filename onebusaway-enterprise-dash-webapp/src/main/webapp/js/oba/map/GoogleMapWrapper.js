@@ -166,8 +166,8 @@ $("document").ready(function() {
 	map_header_link.attr("href", "http://tracker.dashbus.com")
     map_header_link.html("Revert to Classic Tracker")
     contact.html("Features");
-    contact.attr("href", "/wiki/Features/Index");
-	help.attr("href", "/wiki/FrequentlyAskedQuestions/Index");
-	dev.attr("href", "/wiki/Developers/Index");
+    contact.attr("href", "/tracker/wiki/DASHFeatures/Index");
+	help.attr("href", "/tracker/wiki/DASHFAQ/Index");
+	dev.attr("href", "/tracker/wiki/DASHDevelopers/Index");
 
 });
