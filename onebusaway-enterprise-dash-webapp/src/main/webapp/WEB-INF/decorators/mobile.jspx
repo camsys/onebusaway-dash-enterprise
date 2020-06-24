@@ -95,8 +95,7 @@
     		<s:url var="desktopUrl" namespace="/" action="index"/>
     		<a href="${desktopUrl}">Desktop Site</a> |
     		
-    		<s:set var="contactUrl" value="getText('main.contact.link')"/>
-    		<a href="${contactUrl}">Contact</a> |
+    		<a href="https://www.dashbus.com/contact-us">Contact</a> |
 
 			<s:set var="link" value="getText('main.agency.link')" />
 			<a href="${link}"><s:property value="getText('mobile.agency.name')" /> Home</a>
