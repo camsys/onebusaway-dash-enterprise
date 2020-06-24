@@ -94,7 +94,7 @@
     		<s:url var="desktopUrl" namespace="/" action="index"/>
     		<a href="${desktopUrl}">Desktop Site</a> |
     		
-    		<s:url var="contactUrl" value="getText('main.contact.link')"/>
+    		<s:set var="contactUrl" value="getText('main.contact.link')"/>
     		<a href="${contactUrl}">Contact</a> |
 
 			<s:set var="link" value="getText('main.agency.link')" />
