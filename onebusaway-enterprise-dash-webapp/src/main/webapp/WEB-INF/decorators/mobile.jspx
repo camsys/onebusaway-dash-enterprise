@@ -69,7 +69,8 @@
 
 		<div id="topbar-bottom"><!-- prevent jspx minimization -->
 			<div class="logo">
-				<a href="http://www.dashbus.com">
+				<s:url var="url" namespace="/m" action="index"/>
+				<a href="${url}">
 					<s:url var="url" value="/css/img/onebusaway-dash-white.png"></s:url>
 					<img src="${url}" alt="Metro logo"></img>
 				</a>
