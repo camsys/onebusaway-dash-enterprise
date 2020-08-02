@@ -163,7 +163,7 @@ $("document").ready(function() {
     var contact = $('#link_contact a');
 	var help = $('#link_help a');
 	var dev = $('#link_developers a');
-	map_header_link.attr("href", "http://tracker.dashbus.com")
+	map_header_link.attr("href", "https://tracker.dashbus.com")
     map_header_link.html("Revert to Classic Tracker")
     contact.html("Features");
     contact.attr("href", "/tracker/wiki/DASHFeatures/Index");
