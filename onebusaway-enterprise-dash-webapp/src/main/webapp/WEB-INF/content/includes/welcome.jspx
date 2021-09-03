@@ -34,7 +34,7 @@
 						<p class="name" style="border-bottom-color: ${routeColor};">
 							<s:set var="linkDestination">
 								<s:if test="#useAgencyId">
-									<s:property value="id" />
+									<c:out value="71_"/><s:property value="id" />
 								</s:if>
 								<s:else>
 									<s:property value="shortName" />
