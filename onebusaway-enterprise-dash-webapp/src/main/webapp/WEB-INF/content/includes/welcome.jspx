@@ -37,7 +37,7 @@
 									<c:out value="71_"/><s:property value="id" />
 								</s:if>
 								<s:else>
-									<s:property value="shortName" />
+									<c:out value="71_"/><s:property value="shortName" />
 								</s:else>
 							</s:set>
 
