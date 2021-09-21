@@ -26,7 +26,7 @@
 	<h3 id="HRoutes"><span><strong>Routes</strong></span></h3>
 	<div id="routes">
 		<ul class="routeList">
-			<s:set name="agencyFilter" value="71" />
+			<s:set var="agencyFilter" value="71" />
 			<s:iterator value="routes">
 				<c:if test="${agencyFilter == agency.id}">
 					<li>
