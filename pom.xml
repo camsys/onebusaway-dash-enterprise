@@ -8,7 +8,7 @@
   </parent>
   <artifactId>onebusaway-dash-enterprise</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.75.4-cs</version>
+  <version>2.0.75.5-cs</version>
   <name>onebusaway-dash-enterprise</name>
     <repositories>
         <repository>
