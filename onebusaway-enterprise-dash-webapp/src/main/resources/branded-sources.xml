@@ -41,4 +41,5 @@
 			</props>
 		</property>
 	</bean>
+	<bean id="intervalFactory" class="org.onebusaway.transit_data_federation.services.WebIntervalFactory"/>
 </beans>
