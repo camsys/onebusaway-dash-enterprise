@@ -17,132 +17,136 @@
 
 -->
 <html xmlns:jsp="http://java.sun.com/JSP/Page"
-	xmlns:c="http://java.sun.com/jsp/jstl/core"
-	xmlns:decorator="http://www.opensymphony.com/sitemesh/decorator" xmlns:s="/struts-tags">
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:decorator="http://www.opensymphony.com/sitemesh/decorator" xmlns:s="/struts-tags">
 
 <jsp:output doctype-root-element="html"
-	doctype-public="-//W3C//DTD XHTML 1.1 Transitional//EN"
-	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
+            doctype-public="-//W3C//DTD XHTML 1.1 Transitional//EN"
+            doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 
 <jsp:directive.page contentType="text/html" />
 
 <head>
-  <s:set var="title" value="getText('main.title')" />
-  <title><decorator:title default="${title}" /></title>
+    <s:set var="title" value="getText('main.title')" />
+    <title><decorator:title default="${title}" /></title>
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=8" />
-  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
   <link rel="shortcut icon" href="https://mta.info/siteimages/favicon.ico" type="image/x-icon"/>
 
   <script type="text/javascript" src="https://web.mta.info/js/csshorizontalmenu.js"><!-- //prevent jspx minimization --></script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"><!-- jspx --></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"><!-- jspx --></script>
 
-  <s:url var="url" value="/css/reset.css">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>
-  <link rel="stylesheet" type="text/css" href="${url}"/>
+    <s:url var="url" value="/css/reset.css">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <link rel="stylesheet" type="text/css" href="${url}"/>
 
-  <s:url var="url" value="/css/screen.css">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>
-  <link rel="stylesheet" type="text/css" href="${url}"/>
+    <s:url var="url" value="/css/screen.css">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <link rel="stylesheet" type="text/css" href="${url}"/>
 
-  <s:url var="url" value="/css/branding.css">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>
-  <link rel="stylesheet" type="text/css" href="${url}"/>
+    <s:url var="url" value="/css/branding.css">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <link rel="stylesheet" type="text/css" href="${url}"/>
 
-<jsp:text>
-&lt;!--[if IE 6]&gt;
-</jsp:text>
-  <s:url var="url" value="/css/ie6.css">
-  	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>  
-  <link rel="stylesheet" href="${url}" type="text/css" media="screen,print"/>
-<jsp:text>
-&lt;![endif]--&gt;
-</jsp:text>
+    <jsp:text>
+        &lt;!--[if IE 6]&gt;
+    </jsp:text>
+    <s:url var="url" value="/css/ie6.css">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <link rel="stylesheet" href="${url}" type="text/css" media="screen,print"/>
+    <jsp:text>
+        &lt;![endif]--&gt;
+    </jsp:text>
 
-<jsp:text>
-&lt;!--[if IE 7]&gt;
-</jsp:text>
-  <s:url var="url" value="/css/ie7.css">
-  	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>  
-  <link rel="stylesheet" href="${url}" type="text/css" media="screen,print"/>
-<jsp:text>
-&lt;![endif]--&gt;
-</jsp:text>
+    <jsp:text>
+        &lt;!--[if IE 7]&gt;
+    </jsp:text>
+    <s:url var="url" value="/css/ie7.css">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <link rel="stylesheet" href="${url}" type="text/css" media="screen,print"/>
+    <jsp:text>
+        &lt;![endif]--&gt;
+    </jsp:text>
 
-  <s:url var="url" value="/js/biblio/jquery.js">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>  
-  <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
-    
-  <s:url var="url" value="/js/oba/Config.js">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>
-  <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
+    <s:url var="url" value="/js/biblio/jquery.js">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
 
-  <s:url var="url" value="/js/oba/Wiki.js">
-	<s:param name="v"><s:property value="frontEndVersion" /></s:param>
-  </s:url>
-  <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
+    <s:url var="url" value="/js/biblio/jquery-migrate-3.4.1.js">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
 
-  <!-- New font for WMATA branding: -->
-  <s:url var="url" value="http://fonts.googleapis.com/css?family=Lato:400,300,700"></s:url>
-  <link rel="stylesheet" type="text/css" href="${url}" />
-  
-  <decorator:head />
+    <s:url var="url" value="/js/oba/Config.js">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
+
+    <s:url var="url" value="/js/oba/Wiki.js">
+        <s:param name="v"><s:property value="frontEndVersion" /></s:param>
+    </s:url>
+    <script type="text/javascript" src="${url}"><!-- //prevent jspx minimization --></script>
+
+    <!-- New font for WMATA branding: -->
+    <s:url var="url" value="https://fonts.googleapis.com/css?family=Lato:400,300,700"></s:url>
+    <link rel="stylesheet" type="text/css" href="${url}" />
+
+    <decorator:head />
 </head>
 
 <body>
 <div id="mainbox">
-	
-	<c:import url="/WEB-INF/decorators/includes/topbar.jspx" />
-	
-	<div id="contentbox" style="margin-bottom: 10px; padding:0;">
-	<!-- Enter Content here -->
 
-  		<div id="bustime">
-  			<div class="holding_box">
+    <c:import url="/WEB-INF/decorators/includes/topbar.jspx" />
+
+    <div id="contentbox" style="margin-bottom: 10px; padding:0;">
+        <!-- Enter Content here -->
+
+        <div id="bustime">
+            <div class="holding_box">
 				<!-- <div id="header">
-	    	  		<div class="title">
-		      			<s:url var="url" value="/"></s:url>
-			  			<h1><a href="${url}"><s:property value="getText('main.title')" /></a></h1>
-		  	  		</div>
+                    <div class="title">
+                        <s:url var="url" value="/"></s:url>
+                        <h1><a href="${url}"><s:property value="getText('main.title')" /></a></h1>
+                    </div>
 
-					<ul>
-						<s:url var="url" namespace="/m" action="index"/>
+                    <ul>
+                        <s:url var="url" namespace="/m" action="index"/>
 						<li id="link_mobile" aria-label="Text only version"><a href="${url}">TEXT / MOBILE</a></li>
 
 						<s:url var="url" namespace="/wiki/Features" action="Index"/>
 						<li id="link_features"><a href="${url}">FEATURES</a></li>
 
-						<s:url var="url" namespace="/wiki/Developers" action="Index"/>
+                        <s:url var="url" namespace="/wiki/Developers" action="Index"/>
 						<li id="link_developers"><a href="${url}">DEVELOPERS</a></li>
 
 						<s:url var="url" namespace="/wiki/FrequentlyAskedQuestions" action="Index"/>
 						<li id="link_help"><a href="${url}">FAQ</a></li>
-					</ul>
+                    </ul>
 				</div>  		 -->
-	  		
-				<decorator:body />
-			</div>
-	
-		    <!-- Include Google ad -->
-			<c:import url="/WEB-INF/decorators/includes/wikiAd.jspx" />
-	    	
-	    	<div class="container clear"></div>
-	    	<div id="footer" class="clear">
-			  	<s:url var="url" value="/css/img/google_logo.png"></s:url>
-				<div id="google_translate_element">Google Translate <img id="icon" src="${url}" /></div>
-			</div>
-		</div>
 
-	<!-- End Content -->
-	</div>
+                <decorator:body />
+            </div>
+
+            <!-- Include Google ad -->
+            <c:import url="/WEB-INF/decorators/includes/wikiAd.jspx" />
+
+            <div class="container clear"></div>
+            <div id="footer" class="clear">
+                <s:url var="url" value="/css/img/google_logo.png"></s:url>
+                <div id="google_translate_element_bottom">Google Translate <img id="icon" src="${url}" /></div>
+            </div>
+        </div>
+
+        <!-- End Content -->
+    </div>
 
 </div> <!-- close mainbox -->
 </body>
