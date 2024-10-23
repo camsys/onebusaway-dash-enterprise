@@ -96,7 +96,7 @@
 
 <decorator:body />
 
-<div id="footer" style="position:fixed;bottom:0px;">
+<div id="footer">
 	<p>
 			<s:url var="mobileHelpUrl" namespace="/" action="wiki/DASHFAQ/Index"/>
 		<a href="${mobileHelpUrl}">Help</a> |
