@@ -3,3 +3,7 @@
 .project
 .settings
 */target/
+
+.idea/
+
+onebusaway-enterprise-dash-webapp/overlays/
